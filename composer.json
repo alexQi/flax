@@ -1,5 +1,5 @@
 {
-    "name": "heyanlong/flax",
+    "name": "alex/flax",
     "description": "A client library for the Hessian binary web services protocol.",
     "keywords": [
         "hessian",
@@ -14,6 +14,11 @@
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
+        {
+            "name": "alex",
+            "email": "alex.qiubo@qq.com",
+            "role": "translator"
+        },
         {
             "name": "James Harris",
             "email": "james.harris@icecave.com.au",
