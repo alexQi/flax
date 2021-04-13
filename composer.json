@@ -1,0 +1,41 @@
+{
+    "name": "heyanlong/flax",
+    "description": "A client library for the Hessian binary web services protocol.",
+    "keywords": [
+        "hessian",
+        "burlap",
+        "binary",
+        "protocol",
+        "java",
+        "webservice",
+        "api"
+    ],
+    "homepage": "https://github.com/heyanlong/flax",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "James Harris",
+            "email": "james.harris@icecave.com.au",
+            "homepage": "https://github.com/jmalloc"
+        },
+        {
+            "name": "Yanlong He",
+            "email": "yanlong.hee@gmail.com",
+            "homepage": "https://github.com/heyanlong"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "icecave/chrono": "~1",
+        "icecave/collections": "~1",
+        "icecave/isolator": "~3",
+        "psr/log": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Icecave\\Flax\\": "src"
+        }
+    }
+}
